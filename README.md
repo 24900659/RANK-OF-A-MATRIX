@@ -15,12 +15,17 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 Print the calculated rank
 ## Program:
 #Program to find the rank of a matrix.
+
 #Developed by: Mohana K.V.S.L
+
 #RegisterNumber: 24900659
 
 import numpy as np
+
 A = [[1,2,3],[3,6,9]]
+
 sln = np.linalg.matrix_rank(A)
+
 print(sln)
 ## Output:
 ![Screenshot (34)](https://github.com/user-attachments/assets/f6abc822-c4dd-4dc1-a77b-7ad9d94ee224)
