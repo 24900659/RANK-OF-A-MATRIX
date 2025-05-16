@@ -22,13 +22,14 @@ Print the calculated rank
 
 import numpy as np
 
-A = [[1,2,3],[3,6,9]]
+A =  [[5,-3,-10],[2,2,-3],[-3,-1,5]]
 
 sln = np.linalg.matrix_rank(A)
 
 print(sln)
 ## Output:
-![Screenshot (34)](https://github.com/user-attachments/assets/f6abc822-c4dd-4dc1-a77b-7ad9d94ee224)
+![Screenshot 2025-05-16 193437](https://github.com/user-attachments/assets/fb4f241c-7401-4119-b99a-bd658c6d0f1f)
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
